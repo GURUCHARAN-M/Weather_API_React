@@ -2,6 +2,7 @@ import './WeatherAPI.css'
 import { useEffect, useState } from 'react';
 const Weather=({icon,temp,city,country,lat,log,humidity,wind})=>
 {
+  
   return(
     <>
     <div className='image'>
